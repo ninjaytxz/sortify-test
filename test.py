@@ -10,6 +10,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Image Color Change Demo")
 
         # Create central widget and layout
+        # Create central widget and layout
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         layout = QVBoxLayout(central_widget)
@@ -91,3 +92,5 @@ if __name__ == '__main__':
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
+
+    #SOSSSOSOSOSOSOS
